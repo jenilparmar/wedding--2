@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curved Underline Animation</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <style>
+        /* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.curved-underline {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.underline {
+    width: 200px;
+    height: 40px;
+    overflow: visible;
+    margin: 0 auto;
+}
+
+.curve {
+    fill: none;
+    stroke: #333;
+    stroke-width: 2;
+    stroke-dasharray: 200;
+    stroke-dashoffset: 200;
+    animation: draw 2s ease-in-out forwards;
+}
+
+.dot {
+    fill: #333;
+    opacity: 0;
+    animation: appear 2s 1.8s ease-in forwards;
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes appear {
+    to {
+        opacity: 1;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="curved-underline">Welcome to Our Wedding</h1>
+        <svg class="underline" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+            <path class="curve" d="M10,30 Q 50,0 90,30 T 190,30" />
+            <circle class="dot" cx="100" cy="30" r="3" />
+        </svg>
+    </div>
+</body>
+</html>
