@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/wedding--2/static/css/main.751a28e0.css",
+    "main.js": "/wedding--2/static/js/main.823c80ba.js",
+    "static/js/453.7e3e3be8.chunk.js": "/wedding--2/static/js/453.7e3e3be8.chunk.js",
+    "static/media/c2_prev_ui.png": "/wedding--2/static/media/c2_prev_ui.a84bc60fa2c29cb30889.png",
+    "static/media/c3_prev_ui.png": "/wedding--2/static/media/c3_prev_ui.a7256fb8af3684136189.png",
+    "static/media/c4_prev_ui.png": "/wedding--2/static/media/c4_prev_ui.6129cd6c3d2edd9b59cb.png",
+    "static/media/c5_prev_ui.png": "/wedding--2/static/media/c5_prev_ui.fa2411e2b61e8729ed93.png",
+    "static/media/c6_prev_ui.png": "/wedding--2/static/media/c6_prev_ui.68f360e638e52602bbcc.png",
+    "static/media/c7_prev_ui.png": "/wedding--2/static/media/c7_prev_ui.0c1be897863c220e3b89.png",
+    "static/media/c1_prev_ui.png": "/wedding--2/static/media/c1_prev_ui.dd123846eef14548f5e4.png",
+    "static/media/Picture1.jpg": "/wedding--2/static/media/Picture1.0c0e7e5d4a566a1b63a6.jpg",
+    "static/media/GreatVibes-Regular.ttf": "/wedding--2/static/media/GreatVibes-Regular.9f3b78d95140c3425300.ttf",
+    "static/media/rockidate.italic.ttf": "/wedding--2/static/media/rockidate.italic.8766a2167b35fe2ac082.ttf",
+    "static/media/Elsie-Black.ttf": "/wedding--2/static/media/Elsie-Black.64390dfe4e684af52ae5.ttf",
+    "index.html": "/wedding--2/index.html",
+    "main.751a28e0.css.map": "/wedding--2/static/css/main.751a28e0.css.map",
+    "main.823c80ba.js.map": "/wedding--2/static/js/main.823c80ba.js.map",
+    "453.7e3e3be8.chunk.js.map": "/wedding--2/static/js/453.7e3e3be8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.751a28e0.css",
+    "static/js/main.823c80ba.js"
+  ]
+}
